@@ -36,6 +36,17 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 
 ```
 .
+├── aggregate
+│   ├── ast
+│   │   ├── 3375ab684a8d62e50226e013158fe585065c86db
+│   │   │   └── chunk-001.nq.gz
+│   │   └── 3375ab684a8d62e50226e013158fe585065c86db.nq.gz
+│   ├── lsp
+│   │   └── 3375ab684a8d62e50226e013158fe585065c86db.nq.gz
+│   └── repolex
+│       ├── 3375ab684a8d62e50226e013158fe585065c86db
+│       │   └── chunk-001.nq.gz
+│       └── 3375ab684a8d62e50226e013158fe585065c86db.nq.gz
 ├── blob
 │   ├── 056fce806d0b314ebd074d1a664a6fa90e135f89.nq.gz
 │   ├── 12591352c2d82983141dee71afc9ec306cda898b.nq.gz
@@ -58,6 +69,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 3375ab684a8d62e50226e013158fe585065c86db.nq.gz
 ├── filetree
 │   └── 3375ab684a8d62e50226e013158fe585065c86db.nq.gz
 ├── pr
@@ -65,7 +78,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-7 directories, 22 files
+14 directories, 28 files
 ```
 
 | Directory | What it contains |
@@ -85,4 +98,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [asimov-platform/apache-airflow-providers-asimov](https://github.com/asimov-platform/apache-airflow-providers-asimov)
 
 ---
-*Parsed on 2026-04-03 by [repolex](https://repolex.ai)*
+*Parsed on 2026-04-15 by [repolex](https://repolex.ai)*
